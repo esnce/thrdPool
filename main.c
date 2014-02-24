@@ -9,8 +9,6 @@ void *process (void *arg);
 
 int main(void) 
 { 
-    char    arg[128]; 
-
     pool_init(20);   
     pool_add_worker(process,"1"); 
     pool_add_worker(process,"2"); 
