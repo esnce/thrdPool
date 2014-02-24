@@ -1,5 +1,5 @@
 /* 
- * gcc main.c thrdpool.c -lpthread 
+ * gcc main.c thrdPool.c -lpthread 
  * */
 
 #include "thrdPool.h" 
